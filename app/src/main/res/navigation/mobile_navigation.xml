@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.menuobasicas.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.menuobasicas.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/sumaFragment"
+        android:name="com.example.menuobasicas.ui.SumaFragment"
+        android:label="suma_fragment"
+        tools:layout="@layout/suma_fragment" />
+    <fragment
+        android:id="@+id/restaFragment"
+        android:name="com.example.menuobasicas.ui.resta.RestaFragment"
+        android:label="resta_fragment"
+        tools:layout="@layout/resta_fragment" />
+    <fragment
+        android:id="@+id/divisionFragment"
+        android:name="com.example.menuobasicas.ui.division.DivisionFragment"
+        android:label="division_fragment"
+        tools:layout="@layout/division_fragment" />
+    <fragment
+        android:id="@+id/multiplicacionFragment"
+        android:name="com.example.menuobasicas.ui.multiplicacion.MultiplicacionFragment"
+        android:label="multiplicacion_fragment"
+        tools:layout="@layout/multiplicacion_fragment" />
+    <fragment
+        android:id="@+id/potenciaNFragment"
+        android:name="com.example.menuobasicas.ui.potencian.PotenciaNFragment"
+        android:label="potencia_n_fragment"
+        tools:layout="@layout/potencia_n_fragment" />
+    <fragment
+        android:id="@+id/factorialFragment"
+        android:name="com.example.menuobasicas.ui.factorial.FactorialFragment"
+        android:label="factorial_fragment"
+        tools:layout="@layout/factorial_fragment" />
+
+</navigation>
